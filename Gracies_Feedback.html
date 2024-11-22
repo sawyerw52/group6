@@ -8,20 +8,29 @@
     }
     
     header {
-    
-    background-color: white;
-    
+      background-color: white;
     }
     
     .box {
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
-  background-color: white;
-  text-align:center;
-}
+      width: 250px;
+      height: 100px;
+      border: 1px solid black;
+      padding: 10px;
+      margin: 10px;
+      background-color: white;
+      text-align: center; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    }
+    
+    .menbut {
+      background-color: #F76902;
+      width: 250px;
+      height: 100px;
+      font-size: 30px;
+    }
 
     .topnav {
       overflow: hidden;
@@ -29,26 +38,24 @@
     }
     
     .mainbod {
-      
       color: black;
-      font-family:Sans-serif;
+      font-family: sans-serif;
       font-size: 17px;
       text-align: center;
-     
     }
     
-    
-    .graceimage{
-    
-      background-image: url('https://cdn.rit.edu/images/news/2021-08/gracies_ASW5703a.jpg');
-      text-align:center;
-      padding-top:50px;
-      padding-bottom:50px;
-    
+    .graceimage {
+      background-image: url('https://i.ibb.co/BTps3VY/gracies-ASW5703a-fixed.png');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100vw;
+      height: 400px;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     
-   
-
     .topnav a {
       float: left;
       color: #f2f2f2;
@@ -68,7 +75,6 @@
       color: white;
     }
   </style>
-  
 </head>
 <body>
   <div class="topnav">
@@ -79,27 +85,23 @@
     <a href="./account.html">Account</a>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQDxW2qit9ZtbFQu2lYFyJA7A9J4pwx7h5ww&s" width="200" height="40" style="float: right; margin-top: 5px;">
   </div>
+
+  <div class="graceimage">
+    <div class="box">
+      Gracies Feedback
+    </div>
+  </div>
+
   <header>
-
-
- 
-
-   
     <h1 style="text-align: center;">Welcome to Gracie's Feedback App</h1>
     <h1 style="text-align: center;">About Us:</h1>
-    
   </header>
-  <div class = "mainbod">
-  We are a website designed by students that allows other students to see what is being served at gracies and rate the food they were given. With the ratings recived we can use the data to recomend you food you might like and send they fedback back to RIT where they can use it to imporve the menue.
-  </div>
-	<div class = "graceimage">
-    asd
-    boom
-           
-<div class="box">
-  This is a box!
-</div>
-    </div>
   
+  <div class="mainbod">
+    We are a website designed by students that allows other students to see what is being served at Gracies and rate the food they were given. With the ratings received, we can use the data to recommend food you might like and send the feedback back to RIT, where they can use it to improve the menu. To use the website you can use the top nav bar which will take you to all of our options or you can click below to be taken to today's menu.
+  </div>
+  <a href = "./Menu.html">
+  <p style="text-align: center;"><button class='menbut'><b>MENU</b></button></p>
+  </a>
 </body>
 </html>
