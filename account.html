@@ -34,12 +34,24 @@
       font-size: 100;
       color: white;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: #f76902; /* Light blue background */
+      padding: 40px;
+      background-color: #ff7605; /* Light blue background */
       text-align: center;
     }
     .words {
-      text-align: center;
-      font-size: 100px;
+      margin: 0;
+      text-align: left;
+      height: 80px;
+      font-size: 60px;
+      padding-left: 100px;
+      font-family: "Proxima Nova", sans-serif;
+    }
+    .words_n {
+      margin: 0;
+      text-align: left;
+      height: 100px;
+      font-size: 60px;
+      padding-left: 100px;
       font-family: "Proxima Nova", sans-serif;
     }
   </style>
@@ -50,27 +62,57 @@
     <a href="./calender.html">Calander</a>
     <a href="./favorites.html">Favorites</a>
     <a href="./account.html">Account</a>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQDxW2qit9ZtbFQu2lYFyJA7A9J4pwx7h5ww&s"
+      width="200"
+      height="40"
+      style="float: right; margin-top: 5px"
+    />
   </div>
 
   <head>
     <div class="about">About</div>
+  </head>
+  <body>
     <div class="words">
       <p>
-        <font size="10">Name:</font
-        ><input type="text" style="height: 50px; width: 500px" /><button>
-          Enter
-        </button>
+        <font>👤 Account</font>
       </p>
-      <p></p>
-      <p>
-        <font size="5">Email:</font><input type="text" /><button>Enter</button>
-      </p>
-      <p></p>
-      <p>
-        <font size="5">Phone:</font><input type="text" /><button>Enter</button>
-      </p>
-      <p></p>
     </div>
-  </head>
-  <body></body>
+    <div class="words_n">
+      <p>
+        <font>Username</font>
+      </p>
+    </div>
+    <div class="words_n">
+      <input type="text" style="height: 80px; width: 1000px" />
+    </div>
+    <div class="words">
+      <p>
+        <font>Password</font>
+      </p>
+    </div>
+
+    <div class="words_n">
+      <input type="text" style="height: 80px; width: 1000px" />
+    </div>
+    <div class="words">
+      <p>
+        <font>First Name</font>
+      </p>
+    </div>
+
+    <div class="words_n">
+      <input type="text" style="height: 80px; width: 1000px" />
+    </div>
+    <div class="words">
+      <p>
+        <font>Last Name</font>
+      </p>
+    </div>
+
+    <div class="words_n">
+      <input type="text" style="height: 80px; width: 1000px" />
+    </div>
+  </body>
 </html>
