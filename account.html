@@ -1,54 +1,76 @@
 <html>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
 
-  
- <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    .topnav {
+      overflow: hidden;
+      background-color: #f76902;
+    }
 
-.topnav {
-  overflow: hidden;
-  background-color: #F76902;
-}
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+    .topnav a.active {
+      background-color: #04aa6d;
+      color: white;
+    }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
- 
- <div class="topnav">
-  <a href="./Gracies_Feedback.html">Home</a>
-  <a href="./Menu.html">Menu</a>
-  <a href="./calender.html">Calander</a>
-  <a href="./favorites.html">Favorites</a>
-  <a href="./account.html">Account</a>
- 
-</div>
+    .about {
+      margin: 0;
+      font-size: 100;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f76902; /* Light blue background */
+      text-align: center;
+    }
+    .words {
+      text-align: center;
+      font-size: 100px;
+      font-family: "Proxima Nova", sans-serif;
+    }
+  </style>
 
-  
+  <div class="topnav">
+    <a href="./Gracies_Feedback.html">Home</a>
+    <a href="./Menu.html">Menu</a>
+    <a href="./calender.html">Calander</a>
+    <a href="./favorites.html">Favorites</a>
+    <a href="./account.html">Account</a>
+  </div>
+
   <head>
-    <font size="7">About</font>
-    <p><font size="5">Name:</font><input type ="text"><button>Enter</button></p><p>
-    <p><font size="5">Email:</font><input type ="text"><button>Enter</button></p><p>   
-    <p><font size="5">Phone:</font><input type ="text"><button>Enter</button></p><p>
+    <div class="about">About</div>
+    <div class="words">
+      <p>
+        <font size="10">Name:</font
+        ><input type="text" style="height: 50px; width: 500px" /><button>
+          Enter
+        </button>
+      </p>
+      <p></p>
+      <p>
+        <font size="5">Email:</font><input type="text" /><button>Enter</button>
+      </p>
+      <p></p>
+      <p>
+        <font size="5">Phone:</font><input type="text" /><button>Enter</button>
+      </p>
+      <p></p>
+    </div>
   </head>
-  <body>
-    
-  </body>
+  <body></body>
 </html>
