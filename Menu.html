@@ -41,30 +41,85 @@ body {
  
 </div>
 
-    <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        margin: 0;
-      }
-      
-      /* Style the header */
-      .header {
-        padding: 80px;
-        text-align: center;
-        background: #ff7605;
-        color: white;
-      }
-      
-      /* Increase the font size of the h1 element */
-      .header h1 {
-        font-size: 40px;
-      }
-      </style>  
+<style>
 
-  </head>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+  
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #ff7605;
+  color: white;
+}
+      
+.header h1 {
+  font-size: 40px;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.box {
+  background-color: #aaa;
+  width: 50%;
+  padding: 20px;
+}
+
+</style>  
+</head>
   <body>
     <div class="header">
       <h1>Today's Menu</h1>
+    </div>
+    
+      <div class="row">
+        <div class="side">
+          <h3>Menu Item</h3>
+          <h5>Menu Item Description:</h5>
+          <img src="./Images/placeholder.png" style="width:350px;height:350px;" >
+          <h5>Menu Item Description:</h5>
+          <div class="box" style="height:60px;">Item description</div>
+          <h3>More Text</h3>
+          <p>Lorem ipsum dolor sit ame.</p>
+          <div class="box" style="height:60px;">Image</div>
+        </div>
+        <div class="main">
+          <h3>Menu Item</h3>
+          <h5>Title description, Dec 7, 2017</h5>
+          <div class="box" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <br>
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Sep 2, 2017</h5>
+          <div class="box" style="height:200px;">Image</div>
+          <p>Some text..</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
